@@ -1,0 +1,15 @@
+Assignment week 3  Audio file database text file
+# Biome Sound Audio File
+
+Biomes have a unique name, location and climate.
+One attribute of a biome is the fauna that lives in the biome.
+Fauna can be mammals, reptiles, birds but I am limiting the diagram to mammals and reptiles.
+Mammals, reptiles (and birds) can be male or female.
+Males and females can be differentiated by size and weight.
+
+Biomes contain different sounds.
+Biome sounds can be from the fauna or the climate.
+Fauna sounds can be specific to males or females
+Climate sounds can be from the wind, water or changes in temperature.
+
+What I want to add next is the flora and how that impacts sounds (rain on leaves etc)
