@@ -1,0 +1,53 @@
+
+
+SELECT biome . *
+FROM biome
+
+INSERT INTO `biome` (`biome`, `name`, `climate`, `location`) VALUES
+(1, 'Coniferous Taiga forest', '12-33” rain per year,\r\nAverage Temp. below freezing 6 months of year.', 'North America in the North, Russia (above the deciduous forest).'),
+(2, 'Deciduous Temperate forest', ' 30-60” rain per year,  Average Temp. 50° F', 'Eastern North America,\nmiddle Europe, Asia, Paraguay, New Zealand');
+
+
+SELECT inhabitant.species from inhabitant
+
+INSERT INTO `biome` (`species`) VALUES
+('Ursus arctos horribilis'),
+('Ursus arctos horribilis'),
+('Canis Lupus'),
+('Canis lupus');
+
+
+SELECT inhabitant.species from inhabitant where species = "canis lupus"
+
+INSERT INTO `biome` (`species`) VALUES
+('Canis Lupus'),
+('Canis lupus');
+
+
+SELECT sound . * , biome.name
+FROM biome, sound, sound_biome
+WHERE biome.biomes_id = sound_biome.biomes_id
+AND sound.sounds_id = sound_biome.sounds_id
+
+No data was returned
+
+SELECT biome . * , sound.description
+FROM biome, sound, sound_biome
+WHERE biome.biomes_id = sound_biome.biomes_id
+AND sound.sounds_id = sound_biome.sounds_id
+
+no data was returned
+
+SELECT description . * , sound.description
+FROM biome, sound, sound_biome
+WHERE biome.biomes_id = sound_biome.biomes_id
+AND sound.sounds_id = sound_biome.sounds_id
+
+no data was returned
+
+SELECT inhabitant. * , sound.description
+FROM inhabitant, sound, sound_inhabitant
+WHERE inhabitant.inhabitants_id = sound_inhabitant.inhabitants_id
+AND sound.sounds_id = sound_inhabitant.sounds_id
+
+no data was returned
