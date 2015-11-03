@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+     <head>
+		 <title> echo'PHP Special Promo' ?</title>
+	</head>
+<?php
+echo "Today is " . date("m-d-Y") . "<br>";
+
+echo "Dear Patron<br/>";
+
+echo "Today is your lucky day!  Chose a day of the week for free php courses for the rest of your life!
+<br/>";
+
+echo 'This is a list of the days of the week<br/>';
+
+		  $arr = array("Monday","Tuesday","Wednesday","Thursday","Friday");
+				$arr[0]
+				$arr[1]
+				$arr[2]
+				$arr[3]
+				$arr[4]
+					for{($i=0;$i<4;$i++)}
+
+echo "Fill in the name of your favorite php programmer </br>";
+<form method = "Post" action = "">
+	First Name:< inputname= "firstname"/><br/>
+		Last Name:< inputname="lastname"/><br/>
+
+			echo "Sincerely Yours<br/>";
+
+	?>
+</html>
